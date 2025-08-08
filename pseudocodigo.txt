@@ -1,0 +1,54 @@
+INICIO
+
+    MIENTRAS  != 13 HACER
+
+        IMPRIMIR:  ===== GESTOR DE NOTAS ACADÉMICAS ===== 
+        IMPRIMIR:  1. Registrar nuevo curso.
+        IMPRIMIR:  2. Mostrar todos los cursos y notas.
+        IMPRIMIR:  3. Calcular promedio general.
+        IMPRIMIR:  4. Contar cursos aprobados y reprobados
+        IMPRIMIR:  5. Buscar curso por nombre.
+        IMPRIMIR:  6. Actualizar nota de un curso.
+        IMPRIMIR:  7. Eliminar un curso.
+        IMPRIMIR:  8. Ordenar cursos por nota.
+        IMPRIMIR:  9. Ordenar cursos por nombre.
+        IMPRIMIR:  10. Buscar curso por nombre.
+        IMPRIMIR:  11. Simular cola de revisión.
+        IMPRIMIR:  12. Ver historial de cambios.
+        IMPRIMIR:  13. Salir.
+        IMPRIMIR:  Seleccione una opción:
+        LEER opcion
+
+        SI opcion = 1 ENTONCES
+            IMPRIMIR: Registrar nuevo curso
+        SINO SI opcion = 2 ENTONCES
+            IMPRIMIR: Mostrar cursos y notas
+        SINO SI opcion = 3 ENTONCES
+            IMPRIMIR: Calcular promedio
+        SINO SI opcion = 4 ENTONCES
+            IMPRIMIR: Contar aprobados y reprobados
+        SINO SI opcion = 5 ENTONCES
+            IMPRIMIR: Buscar curso
+        SINO SI opcion = 6 ENTONCES
+            IMPRIMIR: Actualizar nota
+        SINO SI opcion = 7 ENTONCES
+            IMPRIMIR: Eliminar curso 
+        SINO SI opcion = 8 ENTONCES
+            IMPRIMIR: Ordenar por nota
+        SINO SI opcion = 9 ENTONCES
+            IMPRIMIR: Ordenar por nombre
+        SINO SI opcion = 10 ENTONCES
+            IMPRIMIR: Buscar curso 
+        SINO SI opcion = 11 ENTONCES
+            IMPRIMIR: Simular cola de revisión
+        SINO SI opcion = 12 ENTONCES
+            IMPRIMIR: Mostrar historial
+        SINO SI opcion = 13 ENTONCES
+            IMPRIMIR Salir 
+        SINO
+            IMPRIMIR "Opción no válida. Intente de nuevo."
+        FIN_SI
+
+    FIN_MIENTRAS
+
+FIN
